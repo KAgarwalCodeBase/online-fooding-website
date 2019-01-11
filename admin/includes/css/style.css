@@ -1,0 +1,141 @@
+*{
+/*    width:available;*/
+    font-size: 100%;
+    margin:0px;
+font-family:'Lato',"Arial";
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+html{
+    overflow:hidden;
+}
+
+
+.top
+{
+
+background-color: rgba(2, 11, 51, 0.87);
+/*
+ background-image:linear-gradient(rgba(81, 170, 129, 0.58),rgba(81, 170, 129, 0.19)),url(img/IMG.jpg);
+    
+*/
+    max-width: 100%;
+    background-size: cover;
+              height:20vh;
+
+}
+
+.mainarea{
+   
+}
+
+.sidebar
+{
+background:rgba(160, 177, 232, 0.63);
+color:firebrick;
+    margin:0px;
+height:65vh;
+    float:left;
+      border-collapse: collapse;
+}
+
+
+.maincontent
+{
+/*    float:right;*/
+background-color:rgba(200, 217, 239, 0.73);
+margin-top: %;
+height:65vh;
+/*     border-collapse: collapse;*/
+
+}    
+.main-content-formatting
+{
+margin-top:5%;
+}
+
+.main-content-formatting [type="submit"]{
+ color:white;
+margin-left:34%;
+   background-color: rgba(135, 175, 222, 0.83); width:15%
+}
+
+.main-content-formatting [type="submit"]:hover{
+    background-color: rgba(124, 148, 203, 0.86);
+    
+    
+}
+    
+.main-content-formatting label 
+{
+    color:brown;
+}
+    
+
+
+
+
+
+.footer{
+    
+    
+    margin:0px;
+background-color:rgba(2, 11, 51, 0.87);
+
+    max-width:100%;
+     height:15vh;
+    
+}
+
+
+
+
+.col{
+    margin:0px;
+}
+
+
+
+
+
+.cname
+{
+     font-size:400%;
+     text-align: right;
+     font-weight:bolder;
+/*     color:rgba(232, 14, 14, 0.72);*/
+     color:rgba(255, 255, 255, 0.53);
+    text-shadow:3px 3px 5px rgba(183, 146, 45, 0.71),3px 3px 5px #b72d2d; 
+/*     border-collapse: collapse;*/
+/*     max-width:100%;*/
+     margin:1% 2%;
+}
+
+@media screen and (max-width: 786px) {
+    .cname {
+     font-size:300%;
+    
+    }
+}
+@media screen and (max-width: 560px) {
+    .cname {
+     font-size:150%;
+    text-align:center;
+    margin:0;
+   margin-top:5%;
+   
+    }
+}
+
+.logo{
+    padding:2px;
+    width:60vh;
+/*margin:2px;*/
+float:left;
+    height:20vh;
+}
+
